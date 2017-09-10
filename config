@@ -106,6 +106,7 @@ bindsym Mod4+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym Mod4+minus scratchpad show
 
+
 # switch to workspace
 bindsym Mod4+1 workspace 1
 bindsym Mod4+2 workspace 2
@@ -176,7 +177,9 @@ bar {
 	position top
         status_command i3blocks
 	i3bar_command i3bar -t
-	font pango:Source Code Pro for Powerline 9
+#	font pango:Source Code Pro for Powerline 9
+	font pango: SauceCodePro Nerd Font Black 9
+
 	colors {	
 		background #1d2021A0
 
